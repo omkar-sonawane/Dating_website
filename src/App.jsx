@@ -1,9 +1,10 @@
-import React from 'react'
-import Navbar from './Pages/Navbar/Navbar'
-import Home from './Pages/Home/Home'
-import Mobile from './Pages/Mobile/Mobile'
-import Profile from './Pages/Profile/Profile'
-import Footer from './Pages/Footer/Footer'
+/* eslint-disable no-unused-vars */
+import React from "react";
+import Navbar from "./Pages/Navbar/Navbar";
+import Home from "./Pages/Home/Home";
+import Mobile from "./Pages/Mobile/Mobile";
+import Profile from "./Pages/Profile/Profile";
+import Footer from "./Pages/Footer/Footer";
 
 const App = () => {
   return (
@@ -11,10 +12,10 @@ const App = () => {
       <Navbar />
       <Home />
       <Mobile />
-      <Profile/>
-      <Footer/>
+      <Profile />
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
