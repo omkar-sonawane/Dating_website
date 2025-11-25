@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.home-container{
+    /* display: flex; */
+    /* background-color: aquamarine; */
+    height: 89vh;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.112);
+    /* background-image: linear-gradient(to left, white, rgba(128, 128, 128, 0.293)); */
+
+}
+
+
+
+.upper-div{
+    display: flex;
+    
+    justify-content: space-around;
+    height: 28%;
+    /* background-color: bisque; */
+    width:100%;
+    
+}
+
+.upper-left{
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 50%;
+}
+
+.upper-left h1{
+    font-size: 80px;
+    font-weight: 600;
+}
+.upper-left p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.upper-right{
+    margin-top: 90px;
+    margin-right: 120px;
+    display: flex;
+    position: relative;
+   
+}
+
+.upper-right h2{
+    border: 1px solid;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: 900;
+    border-radius: 10px;
+    margin-top: 10px;
+     /* background-color: rgba(128, 128, 128, 0.574); */
+
+
+}
+
+.upper-right-2 .div {
+    
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+}
+.div div{
+    height: 50px;
+    width: 50px;
+    /* background-color: blueviolet; */
+    /* border: 1px solid; */
+    /* border-radius: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div div img{
+    
+    height: 50px;
+    width: 50px;
+}
+
+.upper-right-2 p{
+    font-size: 18px;
+    margin-left: 20px;
+    width: 330px;
+    margin-top: 8px;
+}
+
+
+.bottom-div{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.bottom-div-left{
+    /* background-color: aqua; */
+    
+    width: 40%;
+    margin-top: 100px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items:center;
+    justify-content: center;
+   
+}
+.bottom-div-left div{
+    /* padding: 10px; */
+    /* height: 25px;
+    width: 25px; */
+    /* border: 1px solid; */
+    border-radius: 25px;
+    
+    margin-bottom: 20px;
+    font-size: 40px;
+    margin-left: 50px;
+    /* cursor: pointer; */
+}
+
+.bottom-div-left div:hover{
+    cursor: pointer;
+    transition: all;
+    transform: scale(1.1);
+}
+
+.bottom-div-right img{
+    position: relative;
+    background: transparent;
+    
+    margin-right: 22px;
+    height: 480px;
+    width: 739px;
+}
