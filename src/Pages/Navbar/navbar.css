@@ -1,7 +1,8 @@
 .navbar{
     /* height: 250px; */
     /* background-color: aqua; */
-    background-color: rgba(128, 128, 128, 0.112);
+    /* background-color: rgba(128, 128, 128, 0.112); */
+    background-color: rgba(231, 173, 183, 0.663);
 }
 
 nav{
@@ -19,7 +20,10 @@ nav{
 .logo{
     /* background-color: aquamarine; */
     font-size: 20px;
-    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 20px; */
 }
 .logo h2{
     margin-left: 40px;
@@ -31,6 +35,7 @@ nav{
     color: black;
     font-size: 20px;
     font-weight: 550;
+    transition: all;
     
     /* background-color: aquamarine; */
 }
@@ -41,7 +46,24 @@ nav{
     text-decoration: underline;
 }
 
+.nav-btn {
+    display: flex;
+}
 .nav-btn button{
-    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    /* padding: 10px; */
     border-radius: 10px;
+    width: 150px;
+    height: 55px;
+    cursor: pointer;
+}
+.nav-btn button:hover{
+   
+}
+
+button .app{
+    font-size: 25px;
 }

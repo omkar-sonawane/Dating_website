@@ -10,7 +10,7 @@ import pro2 from '../../assets/Pro-2.svg'
 
 const Home = () => {
   return (
-    <div className='home-container'>
+    <div className='home-container' id='home'>
       <div className='upper-div'>
         <div className='upper-left'>
             <h1>When you would like to go on a Dating ?</h1>

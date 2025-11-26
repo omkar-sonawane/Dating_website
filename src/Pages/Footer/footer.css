@@ -1,12 +1,14 @@
 
 .footer{
     height: 100vh;
+    /* margin-top: 0; */
+    
 }
 
 #fot img {
     height: 400px;
     margin-left: 380px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     
 }
 

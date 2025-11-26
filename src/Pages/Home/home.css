@@ -1,3 +1,4 @@
+
 *{
     margin:0;
     padding:0;
@@ -9,8 +10,8 @@
     /* background-color: aquamarine; */
     height: 89vh;
     width: 100%;
-    background-color: rgba(128, 128, 128, 0.112);
-    /* background-image: linear-gradient(to left, white, rgba(128, 128, 128, 0.293)); */
+    /* background-color: rgba(128, 128, 128, 0.112); */
+    background-image: linear-gradient(to top, white, rgba(204, 75, 75, 0.293));
 
 }
 
@@ -82,6 +83,7 @@
     
     height: 50px;
     width: 50px;
+    
 }
 
 .upper-right-2 p{
@@ -126,6 +128,7 @@
     cursor: pointer;
     transition: all;
     transform: scale(1.1);
+    
 }
 
 .bottom-div-right img{
@@ -135,4 +138,8 @@
     margin-right: 22px;
     height: 480px;
     width: 739px;
+    /* border-radius: 200px; */
+    border-top-right-radius: 200px;
+    border-top-left-radius: 200px;
+    
 }
